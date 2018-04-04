@@ -167,3 +167,16 @@ Alternatively, instead of going step-by-step, we can import the entire workspace
 
 ## Integrate It into an Application and Deploy it to IBM Cloud
 This can be done by following the steps found in this [Github repository](https://github.com/watson-developer-cloud/assistant-simple). The difference is that we will be using the Watson Assistant service and workspace we just created.
+
+## Other resources to check out
+Bot Asset Exchange (contains workspaces that can be explored)
+https://developer.ibm.com/code/exchanges/bots/
+
+Watson Assistant courses (to help learn about Watson Assistant features
+https://developer.ibm.com/courses/all/chatbots-watson-lets-talk-national-parks/
+https://developer.ibm.com/courses/all/chatbots-for-good-empathetic-chatbots/
+https://cognitiveclass.ai/courses/how-to-build-a-chatbot/
+
+
+TJ Bot (contains fun projects to build using some hardware components)
+https://ibmtjbot.github.io/
