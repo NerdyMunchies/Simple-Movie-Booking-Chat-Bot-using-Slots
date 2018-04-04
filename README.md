@@ -41,7 +41,7 @@ An IBM Cloud account - A lite account, which is a free of charge account that do
 ## Create a Watson Assistant service
 1.  Select **Catalog** found at the top right of the page.
 2.  Click on **Watson** from the menu on the left, which you can find under **Platform** services.
-3.  Select **Watson Studio**.
+3.  Select **WWatson Assistant (formerly Conversation)**.
 
 ![Watson Assistant service](images/image1.png)
 
