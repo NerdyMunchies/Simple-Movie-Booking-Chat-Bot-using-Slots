@@ -36,7 +36,7 @@ Slots are considered the easiest way to gather information from users, allowing 
 
 # Process 
 ## Sign up on IBM Cloud
-An IBM Cloud account - A lite account, which is a free of charge account that doesn’t expire, can be created through going to [IBM Cloud](http://ibm.biz/bringchildtowork).
+An IBM Cloud account - A lite account, which is a free of charge account that doesn’t expire, can be created through going to [IBM Cloud](http://ibm.biz/childrenday).
 
 ## Create a Watson Assistant service
 1.  Select **Catalog** found at the top right of the page.
@@ -45,7 +45,7 @@ An IBM Cloud account - A lite account, which is a free of charge account that do
 
 ![Watson Assistant service](images/image1.png)
 
-4.  Enter the **Service name** or keep the default value and make sure to select the **US South** as the **region/location** and your desired **organization**, and **space**.
+4.  Enter the **Service name** or keep the default value and make sure to select your desired **region/location**, **organization**, and **space**.
 5.  Select **Lite** for the **Plan**, which you can find under **Pricing Plans** and is already selected. Please note you are only allowed one instance of a Lite plan per service.
 6.  Click on **Create**.
 
