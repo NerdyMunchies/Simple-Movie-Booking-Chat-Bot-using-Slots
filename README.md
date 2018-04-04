@@ -1,5 +1,5 @@
 # Simple-Movie-Booking-Chat-Bot-using-Slots
-This is repository is aimed at helping anyone get started with understanding how to use Watson Assistant service to create a simple chat bot that will book seats to a movie for you.
+This is repository is aimed at helping anyone get started with understanding how to use Watson Assistant service to create a simple chat bot that will book seats to a movie for you. This will be done using a feature called Slots.
 
 # Watson Assistant
 The [Watson Assistant](https://www.ibm.com/watson/ai-assistant/) service available as a Platform as a Service (PaaS) on IBM Cloud provides a AI tooling that can easily allow creating converstaional solutions that fits one's business needs. 
@@ -124,24 +124,24 @@ The *Welcome* has a special condition called **welcome** that is triggered when 
 ![Watson Assistant service](images/image15.png)
 
 10.  Set the triggering condition under **If bot recognizes:** to *#book_tickets* and fill the conditions to be checked afterwards under **Then check for:** as follows:
-1) Check for: @movie-name
-   Save it as: $moviename
+1) Check for: @movie-name <br>
+   Save it as: $moviename <br>
    If not present, ask: There are only 2 movies available (Spider-Man: Homecoming and Star Wars:The Last Jedi). Please enter the name of the movie you would like to watch
    
-2) Check for: @dubai-cinema
-   Save it as: $movielocation
+2) Check for: @dubai-cinema <br>
+   Save it as: $movielocation  <br>
    If not present, ask: Please enter the location of your preference in Dubai
    
-3) Check for: @sys-date
-   Save it as: $moviedate
+3) Check for: @sys-date <br>
+   Save it as: $moviedate <br>
    If not present, ask: Please enter preferred date of booking
    
-4) Check for: @sys-time
-   Save it as: $movietime
+4) Check for: @sys-time <br>
+   Save it as: $movietime <br>
    If not present, ask: Please enter preferred time of booking
    
-5) Check for: @sys-number
-   Save it as: $seats
+5) Check for: @sys-number <br>
+   Save it as: $seats <br>
    If not present, ask: For how many people should I book?
 
 All of this information can be gathered from one user utterance, if provided by the user. Otherwise, the user will be asked about anything that is missing by presenting what is under **If not present, ask**. The information provided is saved in context variables, which are defined under **Save it as**, that can be used at any point throughout the conversation.
